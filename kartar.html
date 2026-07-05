@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karang Taruna Tunas Muda</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.hero-bg{
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+    url('10.jpeg');
+    background-size:cover;
+    background-position:center;
+}
+
+.glass{
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,.08);
+}
+
+.gallery img{
+    transition:.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+</style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 w-full z-50 bg-white shadow-md">
+<div class="max-w-7xl mx-auto px-4">
+
+<div class="flex justify-between items-center h-16">
+
+<div class="font-bold text-xl text-black-700">
+Karang Taruna Tunas Muda
+</div>
+
+<button id="menuBtn" class="md:hidden text-2xl">
+☰
+</button>
+
+<ul id="menu"
+class="hidden md:flex gap-6 font-medium">
+
+<li><a href="#home">Beranda</a></li>
+<li><a href="#profil">Profil</a></li>
+<li><a href="#pengurus">Pengurus</a></li>
+<li><a href="#program">Program</a></li>
+<li><a href="#galeri">Galeri</a></li>
+<li><a href="#berita">Berita</a></li>
+<li><a href="#kontak">Kontak</a></li>
+
+</ul>
+</div>
+
+<div id="mobileMenu" class="hidden md:hidden pb-4">
+<div class="flex flex-col gap-3">
+<a href="#home">Beranda</a>
+<a href="#profil">Profil</a>
+<a href="#pengurus">Pengurus</a>
+<a href="#program">Program</a>
+<a href="#galeri">Galeri</a>
+<a href="#berita">Berita</a>
+<a href="#kontak">Kontak</a>
+</div>
+</div>
+
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero-bg min-h-screen flex items-center">
+
+<div class="max-w-6xl mx-auto px-6 text-center text-white">
+
+<h1 class="text-4xl md:text-7xl font-extrabold mb-6">
+KARANG TARUNA
+<br>
+Tunas Muda
+</h1>
+
+<p class="text-lg md:text-2xl mb-8">
+Membangun Generasi Muda yang Kreatif,
+Mandiri dan Solid
+</p>
+
+<a href="#profil"
+class="bg-teal-600 hover:bg-teal-700 px-8 py-4 rounded-full font-semibold">
+Jelajahi
+</a>
+
+</div>
+
+</section>
+
+<!-- STATISTIK -->
+<section class="py-16 bg-teal-700 text-white">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+
+<div>
+<h2 class="text-4xl font-bold">50+</h2>
+<p>Anggota Aktif</p>
+</div>
+
+<div>
+<h2 class="text-4xl font-bold">5+</h2>
+<p>Kegiatan</p>
+</div>
+
+<div>
+<h2 class="text-4xl font-bold">5+</h2>
+<p>Program Kerja</p>
+</div>
+
+<div>
+<h2 class="text-4xl font-bold">5+</h2>
+<p>Prestasi</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PROFIL -->
+<section id="profil" class="py-20">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="grid md:grid-cols-2 gap-12 items-center">
+
+<img
+src="4.jpeg"
+class="rounded-3xl shadow-xl">
+
+<div>
+
+<h2 class="text-4xl font-bold mb-6 text-teal-700">
+Profil Organisasi
+</h2>
+
+<p class="mb-6">
+Karang Taruna merupakan organisasi sosial kepemudaan yang berperan dalam pengembangan generasi muda serta pemberdayaan masyarakat.
+</p>
+
+<h3 class="font-bold text-xl mb-2">
+Visi
+</h3>
+
+<p class="mb-6">
+Mewujudkan karang taruna yang aktif, kompak, peduli dan bermanfaat bagi organisasi serta masyarakat.
+</p>
+
+<h3 class="font-bold text-xl mb-2">
+Misi
+</h3>
+
+<ul class="list-disc pl-5 space-y-2">
+<li>Menjalin kebersamaan dan kekompakan antar anggota.</li>
+<li>Membangun minat anggota untuk berpartisipasi dalam kegiatan sosial dan masyarakat.</li>
+<li>Mengembangkan potensi pemuda melalui kegiatan positif.</li>
+<li>Membangun komunikasi yang aktif dan responsif antar anggota.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- PENGURUS -->
+<section id="pengurus" class="py-20 bg-gray-100">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center mb-12 text-teal-700">
+Struktur Pengurus
+</h2>
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+<div class="bg-white rounded-3xl p-6 shadow text-center">
+
+    <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-teal-500">
+        <img src="andri.jpeg"
+             alt="Andri"
+             class="w-full h-full object-cover object-center">
+    </div>
+
+    <h3 class="font-bold text-lg">Andri</h3>
+    <p class="text-gray-500">Ketua</p>
+
+</div>
+
+<div class="bg-white rounded-3xl p-6 shadow text-center">
+
+    <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-teal-500">
+        <img src="satrio.jpeg"
+             alt="satrio"
+             class="w-full h-full object-cover object-center">
+    </div>
+
+    <h3 class="font-bold text-lg">Satrio</h3>
+    <p class="text-gray-500">Wakil ketua</p>
+
+</div>
+
+<div class="bg-white rounded-3xl p-6 shadow text-center">
+
+    <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-teal-500">
+        <img src="wulan.jpeg"
+             alt="wulan"
+             class="w-full h-full object-cover object-center">
+    </div>
+
+    <h3 class="font-bold text-lg">Wulan</h3>
+    <p class="text-gray-500">Sekretaris</p>
+
+</div>
+
+<div class="bg-white rounded-3xl p-6 shadow text-center">
+
+    <div class="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-teal-500">
+        <img src="shinta.jpeg"
+             alt="shinta"
+             class="w-full h-full object-cover object-center">
+    </div>
+
+    <h3 class="font-bold text-lg">Shinta</h3>
+    <p class="text-gray-500">Bendahara</p>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PROGRAM -->
+<section id="program" class="py-20">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center mb-12 text-teal-700">
+Program Kerja
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="bg-white shadow-lg rounded-3xl p-8">
+<h3 class="text-2xl mb-3">🌱 Lingkungan</h3>
+<p>Penghijauan, kerja bakti, bank sampah.</p>
+</div>
+
+<div class="bg-white shadow-lg rounded-3xl p-8">
+<h3 class="text-2xl mb-3">💼 Wirausaha</h3>
+<p>Pelatihan UMKM dan bisnis digital.</p>
+</div>
+
+<div class="bg-white shadow-lg rounded-3xl p-8">
+<h3 class="text-2xl mb-3">⚽ Olahraga</h3>
+<p>Pembinaan atlet dan turnamen desa.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri" class="py-20 bg-gray-100">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center mb-12 text-teal-700">
+Galeri Kegiatan
+</h2>
+
+<div class="gallery grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<img src="rmj.jpeg" class="rounded-2xl">
+
+<img src="2.jpeg" class="rounded-2xl">
+
+<img src="acr2.jpeg" class="rounded-2xl">
+
+<img src="acr.jpeg" class="rounded-2xl">
+<img src="6.jpeg" class="rounded-2xl">
+<img src="1.jpeg" class="rounded-2xl">
+<img src="8.jpeg" class="rounded-2xl">
+<img src="ibusenam.jpeg" class="rounded-2xl">
+<img src="5.jpeg" class="rounded-2xl">
+<img src="acr1.jpeg" class="rounded-2xl">
+<img src="7.jpeg" class="rounded-2xl">
+<img src="3.jpeg" class="rounded-2xl">
+<img src="event1.jpeg" class="rounded-2xl">
+<img src="acr3.jpeg" class="rounded-2xl">
+<img src="acr4.jpeg" class="rounded-2xl">
+<img src="karnaval.jpeg" class="rounded-2xl">
+<img src="nyinom.jpeg" class="rounded-2xl">
+<img src="acr5.jpeg" class="rounded-2xl">
+<img src="acr6.jpeg" class="rounded-2xl">
+<img src="event2.jpeg" class="rounded-2xl">
+<img src="11.jpeg" class="rounded-2xl">
+
+
+
+</div>
+
+</div>
+</section>
+<a href="https://drive.google.com/drive/folders/1ura10oBqIOhjaVLatotCYHzw1LWGmkDu"
+   target="_blank"
+   class="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-xl">
+   📁 Lihat Album Foto
+</a>
+
+<!-- BERITA -->
+<section id="berita" class="py-20">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center mb-12 text-teal-700">
+Berita Terbaru
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="bg-white rounded-3xl shadow overflow-hidden">
+<div class="p-6">
+<h3 class="font-bold text-xl mb-3">
+Kerja Bakti Lingkungan
+</h3>
+<p>
+Pemuda bersama warga melakukan kerja bakti membersihkan lingkungan.
+</p>
+</div>
+</div>
+
+<div class="bg-white rounded-3xl shadow overflow-hidden">
+<div class="p-6">
+<h3 class="font-bold text-xl mb-3">
+Drumblack Dusun
+</h3>
+<p>
+ generasi muda desa.
+</p>
+</div>
+</div>
+
+<div class="bg-white rounded-3xl shadow overflow-hidden">
+<div class="p-6">
+<h3 class="font-bold text-xl mb-3">
+Turnamen voli
+</h3>
+<img src="voli.jpeg">
+<p>
+Ajang sportivitas dan silaturahmi pemuda.
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="py-20 bg-teal-700 text-white">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="grid md:grid-cols-2 gap-12">
+
+<div>
+<h2 class="text-4xl font-bold mb-6">
+Hubungi Kami
+</h2>
+
+<p class="mb-4">
+📍 Dusun. Bubudan, Desa. Sumberejo
+</p>
+
+<p class="mb-4">
+📞 083147350834
+</p>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<div class="flex gap-4 mt-4 text-3xl">
+
+    <a href="https://www.instagram.com/tunasmudaaaaa?igsh=MXd0aThyMDRtcHE1cA=="
+       target="_blank"
+       class="hover:text-pink-500 transition">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <p class="mb-4">
+Instagram
+</p>
+    <a href="https://www.tiktok.com/@tnasmda?_r=1&_t=ZS-97OBIACjdp6"
+       target="_blank"
+       class="hover:text-teal-400 transition">
+        <i class="fab fa-tiktok"></i>
+    </a>
+   <p class="mb-4">
+Tiktok
+</p>
+
+</div>
+<p>
+✉ info@karangtaruna.id
+</p>
+</div>
+
+<form class="glass rounded-3xl p-8">
+
+<input
+type="text"
+placeholder="Nama"
+class="w-full p-3 rounded-xl mb-4 text-black">
+
+<input
+type="email"
+placeholder="Email"
+class="w-full p-3 rounded-xl mb-4 text-black">
+
+<textarea
+rows="5"
+placeholder="Pesan"
+class="w-full p-3 rounded-xl mb-4 text-black"></textarea>
+
+<button
+class="bg-white text-teal-700 px-6 py-3 rounded-xl font-semibold w-full">
+Kirim Pesan
+</button>
+
+</form>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white py-8 text-center">
+
+<p>
+© 2026 Karang Taruna Tunas Muda
+</p>
+
+</footer>
+
+<!-- WHATSAPP -->
+<a
+href="https://wa.me/6283147350834"
+target="_blank"
+class="fixed bottom-5 right-5 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg">
+💬
+</a>
+
+<!-- DARK MODE -->
+<button
+id="darkBtn"
+class="fixed bottom-5 left-5 bg-gray-900 text-white px-4 py-2 rounded-xl">
+🌙
+</button>
+
+<script>
+document.getElementById('menuBtn').addEventListener('click',()=>{
+document.getElementById('mobileMenu').classList.toggle('hidden');
+});
+
+document.getElementById('darkBtn').addEventListener('click',()=>{
+document.documentElement.classList.toggle('dark');
+
+document.body.classList.toggle('bg-gray-900');
+document.body.classList.toggle('text-white');
+});
+</script>
+
+</body>
+</html>
